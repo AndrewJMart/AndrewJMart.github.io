@@ -13,14 +13,14 @@ about:
       href: https://github.com/AndrewJMart
     - icon: file-person
       text: Resume
-      href: Resume.pdf
+      href: https://github.com/AndrewJMart/AndrewJMart.github.io/blob/main/Resume.pdf
 ---
 
 ## Biography {.left}
 
 Andrew Martinez is an undergraduate student at Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.
 
-In his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games.
+In his spare time you will find Andrew watching the Oakland Athletics or Sacramento Kings.
 
 
 

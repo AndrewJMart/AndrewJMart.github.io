@@ -17,7 +17,7 @@ website:
 
 format:
   html:
-    theme: Litera
+    theme: Lux
     toc: true
 
 editor: source
