@@ -28,11 +28,11 @@
     "text": "Implementation Details\n\nData Processing\nThe project involves an initial preprocessing climbing route data, which was found at Open Beta to build our initial user data in our SupaBase data base. In addition, we continued to process large quantites of user and climb data through our API endpoints listed below.\n\n\nAPI Key Authentication\nThe API employs API key authentication using FastAPI’s APIKeyHeader for secure access to the endpoints. Users need to include their API key in the request header for authorization."
   },
   {
-    "objectID": "posts/projects/Climbing API.html#endpoints",
-    "href": "posts/projects/Climbing API.html#endpoints",
+    "objectID": "posts/projects/Climbing API.html#example-endpoints",
+    "href": "posts/projects/Climbing API.html#example-endpoints",
     "title": "Climbing Data API",
-    "section": "Endpoints",
-    "text": "Endpoints\n\nClimbing Logs\nUsers can create climb log entries, providing details such as route ID (Route Name), frequency, intensity, heart rate, and blood pressure.\n\n\nUser History\nThis endpoint retrieves all previous climbs performed by a specific user, providing insights into their climbing activity over time.\n\n\nRoute Recommendations\nBased on a user’s climbing history, the API recommends climbing routes. This endpoint is performed by utilizing collaborative filtering to analyze other user’s climbs to then recommend climbs.\n\n\nAdd Route\nUsers can add new climbing routes to the database, including details such as route name, location, difficulty grade, climbing style, description, and protection."
+    "section": "Example Endpoints",
+    "text": "Example Endpoints\n\nClimbing Logs\nUsers can create climb log entries, providing details such as route ID (Route Name), frequency, intensity, heart rate, and blood pressure.\n\n\nUser History\nThis endpoint retrieves all previous climbs performed by a specific user, providing insights into their climbing activity over time.\n\n\nRoute Recommendations\nBased on a user’s climbing history, the API recommends climbing routes. This endpoint is performed by utilizing collaborative filtering to analyze other user’s climbs to then recommend climbs.\n\n\nAdd Route\nUsers can add new climbing routes to the database, including details such as route name, location, difficulty grade, climbing style, description, and protection.\n\n\nLeaderboard\nUsers can access a leaderboard that details which users lead in certain categories. These categories include most overall climbs, most difficult climbs, and more!"
   },
   {
     "objectID": "posts/projects/Climbing API.html#project-output",

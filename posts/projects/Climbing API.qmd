@@ -52,5 +52,4 @@ Users can access a leaderboard that details which users lead in certain categori
 
 The API provides a seamless interface for climbers to manage their climbing activity, explore new routes, and receive personalized recommendations. It enhances the climbing experience by leveraging modern web technologies and geospatial analysis.
 
-For the complete code implementation and documentation, visit the [GitHub repository](https://github.com/ajlevin/Sender).
-
+For the complete code implementation and documentation, visit the <a href="https://github.com/ajlevin/Sender" target="_blank">GitHub repository</a>.
