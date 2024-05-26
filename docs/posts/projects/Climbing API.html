@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andrew Martinez">
+<meta name="dcterms.date" content="2024-05-25">
+<meta name="keywords" content="FastAPI, API, Climbing, Database, SQLAlchemy, Geopandas">
 
-<title>Andrew Martinez - Projects &amp; Blogs</title>
+<title>Andrew Martinez - Climbing Data API</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,38 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -103,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Andrew Martinez</span>
     </a>
   </div>
@@ -114,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -123,11 +93,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
         <li>
-    <a class="dropdown-item" href="./projects.html" rel="" target="">
+    <a class="dropdown-item" href="../../projects.html" rel="" target="">
  <span class="dropdown-text">Projects</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./blogs.html" rel="" target="">
+    <a class="dropdown-item" href="../../blogs.html" rel="" target="">
  <span class="dropdown-text">Blogs</span></a>
   </li>  
     </ul>
@@ -143,14 +113,29 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Projects &amp; Blogs</h1>
-                      </div>
+      <h1 class="title">Climbing Data API</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">projects</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Andrew Martinez </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 25, 2024</p>
+      </div>
+    </div>
     
       
     </div>
@@ -160,95 +145,70 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="projects">projects <span class="quarto-category-count">(2)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-background" id="toc-project-background" class="nav-link active" data-scroll-target="#project-background">Project Background</a></li>
+  <li><a href="#implementation-details" id="toc-implementation-details" class="nav-link" data-scroll-target="#implementation-details">Implementation Details</a>
+  <ul class="collapse">
+  <li><a href="#data-processing" id="toc-data-processing" class="nav-link" data-scroll-target="#data-processing">Data Processing</a></li>
+  <li><a href="#api-key-authentication" id="toc-api-key-authentication" class="nav-link" data-scroll-target="#api-key-authentication">API Key Authentication</a></li>
+  </ul></li>
+  <li><a href="#endpoints" id="toc-endpoints" class="nav-link" data-scroll-target="#endpoints">Endpoints</a></li>
+  <li><a href="#project-output" id="toc-project-output" class="nav-link" data-scroll-target="#project-output">Project Output</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
+<section id="project-background" class="level2">
+<h2 class="anchored" data-anchor-id="project-background">Project Background</h2>
+<p>This project aims to provide an API for rock climbers to log their climbs, discover new routes, and receive recommendations based on their climbing history. It utilizes FastAPI for building the API endpoints, SQLAlchemy for database interactions, and Geopandas for geospatial data processing.</p>
+</section>
+<section id="implementation-details" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-details">Implementation Details</h2>
+<section id="data-processing" class="level3">
+<h3 class="anchored" data-anchor-id="data-processing">Data Processing</h3>
+<p>The project involves an initial preprocessing climbing route data, which was found at <a href="https://github.com/OpenBeta/climbing-data" target="_blank">Open Beta</a> to build our initial user data in our SupaBase data base. In addition, we continued to process large quantites of user and climb data through our API endpoints listed below.</p>
+</section>
+<section id="api-key-authentication" class="level3">
+<h3 class="anchored" data-anchor-id="api-key-authentication">API Key Authentication</h3>
+<p>The API employs API key authentication using FastAPI’s <code>APIKeyHeader</code> for secure access to the endpoints. Users need to include their API key in the request header for authorization.</p>
+</section>
+</section>
+<section id="endpoints" class="level2">
+<h2 class="anchored" data-anchor-id="endpoints">Endpoints</h2>
+<section id="climbing-logs" class="level4">
+<h4 class="anchored" data-anchor-id="climbing-logs">Climbing Logs</h4>
+<p>Users can create climb log entries, providing details such as route ID (Route Name), frequency, intensity, heart rate, and blood pressure.</p>
+</section>
+<section id="user-history" class="level4">
+<h4 class="anchored" data-anchor-id="user-history">User History</h4>
+<p>This endpoint retrieves all previous climbs performed by a specific user, providing insights into their climbing activity over time.</p>
+</section>
+<section id="route-recommendations" class="level4">
+<h4 class="anchored" data-anchor-id="route-recommendations">Route Recommendations</h4>
+<p>Based on a user’s climbing history, the API recommends climbing routes. This endpoint is performed by utilizing collaborative filtering to analyze other user’s climbs to then recommend climbs.</p>
+</section>
+<section id="add-route" class="level4">
+<h4 class="anchored" data-anchor-id="add-route">Add Route</h4>
+<p>Users can add new climbing routes to the database, including details such as route name, location, difficulty grade, climbing style, description, and protection.</p>
+</section>
+</section>
+<section id="project-output" class="level2">
+<h2 class="anchored" data-anchor-id="project-output">Project Output</h2>
+<p>The API provides a seamless interface for climbers to manage their climbing activity, explore new routes, and receive personalized recommendations. It enhances the climbing experience by leveraging modern web technologies and geospatial analysis.</p>
+<p>For the complete code implementation and documentation, visit the <a href="https://github.com/ajlevin/Sender">GitHub repository</a>.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="projects" data-listing-date-sort="1716620400000" data-listing-file-modified-sort="1716706453739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/projects/Climbing API.html"> <img src="./posts/projects/Climbing.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/projects/Climbing API.html">
-<h3 class="no-anchor listing-title">
-Climbing Data API
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('projects'); return false;">
-projects
-</div>
-</div>
-<a href="./posts/projects/Climbing API.html">
-<div class="listing-description">
-This project aims to provide an API for rock climbers to log their climbs, discover new routes, and receive…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/projects/Climbing API.html">
-<div class="listing-date">
-May 25, 2024
-</div>
-<div class="listing-author">
-Andrew Martinez
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="projects" data-listing-date-sort="1716620400000" data-listing-file-modified-sort="1716704019322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/projects/Race Classifier Residual Neural Network Implementation.html"> <img src="./posts/projects/ResNetVis.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/projects/Race Classifier Residual Neural Network Implementation.html">
-<h3 class="no-anchor listing-title">
-Race Classifier Residual Neural Network Implementation
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('projects'); return false;">
-projects
-</div>
-</div>
-<a href="./posts/projects/Race Classifier Residual Neural Network Implementation.html">
-<div class="listing-description">
-This project stemmed from my personal exploration into CNNs and ResNet architecture and my desire to apply the new found knowledge I…
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/projects/Race Classifier Residual Neural Network Implementation.html">
-<div class="listing-date">
-May 25, 2024
-</div>
-<div class="listing-author">
-Andrew Martinez
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -4,14 +4,49 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Race Classifier Residual Neural Network Implementation\n\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\nNo matching items"
+    "text": "Race Classifier Residual Neural Network Implementation\n\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\n  \n\n\n\n\nClimbing Data API\n\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Projects & Blogs",
+    "objectID": "posts/projects/Climbing API.html",
+    "href": "posts/projects/Climbing API.html",
+    "title": "Climbing Data API",
     "section": "",
-    "text": "Race Classifier Residual Neural Network Implementation\n\n\n\n\n\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\nNo matching items"
+    "text": "This project aims to provide an API for rock climbers to log their climbs, discover new routes, and receive recommendations based on their climbing history. It utilizes FastAPI for building the API endpoints, SQLAlchemy for database interactions, and Geopandas for geospatial data processing."
+  },
+  {
+    "objectID": "posts/projects/Climbing API.html#project-background",
+    "href": "posts/projects/Climbing API.html#project-background",
+    "title": "Climbing Data API",
+    "section": "",
+    "text": "This project aims to provide an API for rock climbers to log their climbs, discover new routes, and receive recommendations based on their climbing history. It utilizes FastAPI for building the API endpoints, SQLAlchemy for database interactions, and Geopandas for geospatial data processing."
+  },
+  {
+    "objectID": "posts/projects/Climbing API.html#implementation-details",
+    "href": "posts/projects/Climbing API.html#implementation-details",
+    "title": "Climbing Data API",
+    "section": "Implementation Details",
+    "text": "Implementation Details\n\nData Processing\nThe project involves an initial preprocessing climbing route data, which was found at Open Beta to build our initial user data in our SupaBase data base. In addition, we continued to process large quantites of user and climb data through our API endpoints listed below.\n\n\nAPI Key Authentication\nThe API employs API key authentication using FastAPI’s APIKeyHeader for secure access to the endpoints. Users need to include their API key in the request header for authorization."
+  },
+  {
+    "objectID": "posts/projects/Climbing API.html#endpoints",
+    "href": "posts/projects/Climbing API.html#endpoints",
+    "title": "Climbing Data API",
+    "section": "Endpoints",
+    "text": "Endpoints\n\nClimbing Logs\nUsers can create climb log entries, providing details such as route ID (Route Name), frequency, intensity, heart rate, and blood pressure.\n\n\nUser History\nThis endpoint retrieves all previous climbs performed by a specific user, providing insights into their climbing activity over time.\n\n\nRoute Recommendations\nBased on a user’s climbing history, the API recommends climbing routes. This endpoint is performed by utilizing collaborative filtering to analyze other user’s climbs to then recommend climbs.\n\n\nAdd Route\nUsers can add new climbing routes to the database, including details such as route name, location, difficulty grade, climbing style, description, and protection."
+  },
+  {
+    "objectID": "posts/projects/Climbing API.html#project-output",
+    "href": "posts/projects/Climbing API.html#project-output",
+    "title": "Climbing Data API",
+    "section": "Project Output",
+    "text": "Project Output\nThe API provides a seamless interface for climbers to manage their climbing activity, explore new routes, and receive personalized recommendations. It enhances the climbing experience by leveraging modern web technologies and geospatial analysis.\nFor the complete code implementation and documentation, visit the GitHub repository."
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "about.html",
@@ -42,11 +77,11 @@
     "text": "Education\n\nBS\nStatistics, California Polytechnic State University San Luis Obispo, 2025\n\n\nBS\nBusiness Administration, California Polytechnic State University San Luis Obispo, 2025"
   },
   {
-    "objectID": "blogs.html",
-    "href": "blogs.html",
-    "title": "Blogs",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Projects & Blogs",
     "section": "",
-    "text": "No matching items"
+    "text": "Climbing Data API\n\n\n\n\n\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\n  \n\n\n\n\nRace Classifier Residual Neural Network Implementation\n\n\n\n\n\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/projects/Race Classifier Residual Neural Network Implementation.html",

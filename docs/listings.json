@@ -2,17 +2,19 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/posts/projects/Race Classifier Residual Neural Network Implementation.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/posts/projects/Race Classifier Residual Neural Network Implementation.html"
+      "/posts/projects/Race Classifier Residual Neural Network Implementation.html",
+      "/posts/projects/Climbing API.html"
     ]
   },
   {
     "listing": "/blogs.html",
     "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/projects/Climbing API.html",
+      "/posts/projects/Race Classifier Residual Neural Network Implementation.html"
+    ]
   }
 ]

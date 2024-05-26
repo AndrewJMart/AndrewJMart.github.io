@@ -1,0 +1,56 @@
+---
+title: "Climbing Data API"
+author: "Andrew Martinez"
+date: "2024-05-25"
+categories: projects
+page-layout: full
+title-block-banner: true
+image: Climbing.jpg
+keywords: [FastAPI, API, Climbing, Database, SQLAlchemy, Geopandas]
+format:
+  html:
+    code-copy: true
+---
+
+## Project Background
+
+This project aims to provide an API for rock climbers to log their climbs, discover new routes, and receive recommendations based on their climbing history. It utilizes FastAPI for building the API endpoints, SQLAlchemy for database interactions, and Geopandas for geospatial data processing.
+
+## Implementation Details
+
+### Data Processing
+
+The project involves an initial preprocessing climbing route data, which was found at <a href="https://github.com/OpenBeta/climbing-data" target="_blank">Open Beta</a> to build our initial user data in our SupaBase data base. In addition, we continued to process large quantites of user and climb data through our API endpoints listed below. 
+
+### API Key Authentication
+
+The API employs API key authentication using FastAPI's `APIKeyHeader` for secure access to the endpoints. Users need to include their API key in the request header for authorization.
+
+## Example Endpoints
+
+#### Climbing Logs
+
+Users can create climb log entries, providing details such as route ID (Route Name), frequency, intensity, heart rate, and blood pressure.
+
+#### User History
+
+This endpoint retrieves all previous climbs performed by a specific user, providing insights into their climbing activity over time.
+
+#### Route Recommendations
+
+Based on a user's climbing history, the API recommends climbing routes. This endpoint is performed by utilizing collaborative filtering to analyze other user's climbs to then recommend climbs. 
+
+#### Add Route
+
+Users can add new climbing routes to the database, including details such as route name, location, difficulty grade, climbing style, description, and protection.
+
+#### Leaderboard
+
+Users can access a leaderboard that details which users lead in certain categories. These categories include most overall climbs, most difficult climbs, and more! 
+
+## Project Output
+
+The API provides a seamless interface for climbers to manage their climbing activity, explore new routes, and receive personalized recommendations. It enhances the climbing experience by leveraging modern web technologies and geospatial analysis.
+
+For the complete code implementation and documentation, visit the [GitHub repository](https://github.com/ajlevin/Sender).
+
