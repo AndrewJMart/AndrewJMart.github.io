@@ -13,7 +13,7 @@ about:
       href: https://github.com/AndrewJMart
     - icon: file-person
       text: Resume
-      href: https://github.com/AndrewJMart/AndrewJMart.github.io/blob/main/Resume.pdf
+      href: /assets/Resume.pdf
 ---
 
 ## Biography {.left}
