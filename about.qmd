@@ -18,7 +18,7 @@ about:
 
 ## Biography {.left}
 
-Andrew Martinez is an undergraduate student At Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.
+Andrew Martinez is an undergraduate student at Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.
 
 In his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games.
 
@@ -29,7 +29,7 @@ In his spare time you will find Andrew watching Oakland Athletics or Sacramento 
 </style>
 
 ::: columns
-:::: {.column width="45%"}
+:::: {.column width="50%"}
 ## Interests
 - Data Science
 - Machine Learning
@@ -40,7 +40,7 @@ In his spare time you will find Andrew watching Oakland Athletics or Sacramento 
 - Business Analytics
 ::::
 
-:::: {.column width="55%"}
+:::: {.column width="50%"}
 ## Education
 
 ### BS

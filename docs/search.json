@@ -18,14 +18,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Andrew Martinez is an undergraduate student At Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.\nIn his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games."
+    "text": "Andrew Martinez is an undergraduate student at Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.\nIn his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games."
   },
   {
     "objectID": "about.html#biography",
     "href": "about.html#biography",
     "title": "About",
     "section": "",
-    "text": "Andrew Martinez is an undergraduate student At Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.\nIn his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games."
+    "text": "Andrew Martinez is an undergraduate student at Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.\nIn his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games."
   },
   {
     "objectID": "about.html#interests",
@@ -67,7 +67,7 @@
     "href": "posts/projects/Race Classifier Residual Neural Network Implementation.html#implementation-details",
     "title": "Race Classifier Residual Neural Network Implementation",
     "section": "Implementation Details",
-    "text": "Implementation Details\n\nData Preprocessing\nThe initial part of the code deals with data preprocessing tasks, including resizing, cropping, and augmentation of images using PyTorch’s transforms module. The goal here is to prepare the dataset for training the Residual CNN model.\n\n\nModel Architecture\nThe Residual CNN model is constructed using PyTorch’s nn.Module class. The model’s architecture is as follows, one initial convolutional layer with batch normalization and a max pooling layer. Which is then followed up with four residual blocks, with the first residual block containing four convolutional layers, with each having a batch normalization layer, and the latter three residual blocks containing two convolutional layers, with each convolutional layer having its own batch normalization layer. Initially I opted to pursue a more complex Residual CNN architecture, however after experiencing over fitting I opted to minimize the complexity of the model artchitecture.\n\n\nTraining and Validation\nThe model is trained and validated using a stratified k-fold cross-validation approach. For each fold, the dataset is split into training and validation subsets. One major concern within the dataset is the large class imbalances. The White labels comprise of roughly 45% of the data, which will kill model performance unless properly dealt with. To address this issue I utilized stratified k-fold to properly sample class labels for the training and testing data. Additionally, I created weights for the Cross Entropy Loss based on the respective frequencies of the classes to better weight the classes."
+    "text": "Implementation Details\n\nData Preprocessing\nThe initial part of the code deals with data preprocessing tasks, including resizing, cropping, and augmentation of images using PyTorch’s transforms module. The goal here is to prepare the dataset for training the Residual CNN model.\n\n\nModel Architecture\nThe Residual CNN model is constructed using PyTorch’s nn.Module class. The model’s architecture is as follows, one initial convolutional layer with batch normalization and a max pooling layer. Which is then followed up with four residual blocks, with the first residual block containing four convolutional layers, with each having a batch normalization layer, and the latter three residual blocks containing two convolutional layers, with each convolutional layer having its own batch normalization layer. Initially I opted to pursue a more complex Residual CNN architecture, however after experiencing over fitting I opted to minimize the complexity of the model architecture.\n\n\nTraining and Validation\nThe model is trained and validated using a stratified k-fold cross-validation approach. For each fold, the data set is split into training and validation subsets. One major concern within the data set is the large class imbalances. The White labels comprise of roughly 45% of the data, which will kill model performance unless properly dealt with. To address this issue I utilized stratified k-fold to properly sample class labels for the training and testing data. Additionally, I created weights for the Cross Entropy Loss based on the respective frequencies of the classes to better weight the classes."
   },
   {
     "objectID": "posts/projects/Race Classifier Residual Neural Network Implementation.html#project-output",
