@@ -1,0 +1,52 @@
+---
+title: "About"
+image: img/andrew_martinez-9.jpg
+image-shape: round
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/andrew-j-martinez/
+    - icon: github
+      text: Github
+      href: https://github.com/AndrewJMart
+    - icon: file-person
+      text: Resume
+      href: Resume.pdf
+---
+
+## Biography {.left}
+
+Andrew Martinez is an undergraduate student At Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.
+
+In his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games.
+
+
+
+<style>
+.left {text-align: left;}
+</style>
+
+::: columns
+:::: {.column width="45%"}
+## Interests
+- Data Science
+- Machine Learning
+- Natural Language Processing
+- Computer Vision
+- Data Visualization
+- Statistical Modeling
+- Business Analytics
+::::
+
+:::: {.column width="55%"}
+## Education
+
+### BS
+Statistics, California Polytechnic State University San Luis Obispo, 2025
+
+### BS
+Business Administration, California Polytechnic State University San Luis Obispo, 2025
+::::
+:::

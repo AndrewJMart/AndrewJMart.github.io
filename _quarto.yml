@@ -5,21 +5,19 @@ project:
 website:
   title: "Andrew Martinez"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - projects.qmd
-    tools:
-      - icon: linkedin
-        href: https://www.linkedin.com/in/andrew-j-martinez/
-      - icon: github
-        href: https://github.com/AndrewJMart
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "More"
+        menu:
+          - projects.qmd
+          - blogs.qmd
   page-footer:
     left: "&copy; Copyright 2024, Andrew Martinez"
 
 format:
   html:
-    theme: cerulean
+    theme: Litera
     toc: true
 
 editor: source

@@ -1,19 +1,15 @@
 ---
-title: "About Me"
-about:
-  id: me
-  template: broadside
-  image: img/profile.png
+title: "Projects & Blogs"
+listing:
+  feed: true
+  contents: posts
+  sort: "date desc"
+  type: default
+  # grid-columns: 3
+  categories: true
+  # sort-ui: false
+  # filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
-:::{#me}
-
-## Goals
-
-## Education
-
-## Experience
-
-:::
-
-Thanks for checking out my web site!

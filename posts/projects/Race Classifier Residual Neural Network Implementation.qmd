@@ -1,0 +1,40 @@
+---
+title: "Race Classifier Residual Neural Network Implementation"
+author: "Andrew Martinez"
+date: "2024-05-25"
+categories: projects
+page-layout: full
+title-block-banner: true
+image: ResNetVis.png
+keywords: [CNN, Residual Networks, PyTorch, Data Science, Machine Learning, Computer Vision]
+format:
+  html:
+    code-copy: true
+---
+
+## Project Background
+
+This project stemmed from my personal exploration into CNNs and ResNet architecture and my desire to apply the new found knowledge I learned. In this project I applied a ResNet CNN style architecture to develop a multiclass classification computer vision model that identifies a person's race based on a photo.
+
+## Implementation Details
+
+### Data Preprocessing
+
+The initial part of the code deals with data preprocessing tasks, including resizing, cropping, and augmentation of images using PyTorch's `transforms` module. The goal here is to prepare the dataset for training the Residual CNN model.
+
+### Model Architecture
+
+The Residual CNN model is constructed using PyTorch's `nn.Module` class. The model's architecture is as follows, one initial convolutional layer with batch normalization and a max pooling layer. Which is then followed up with four residual blocks, with the first residual block containing four convolutional layers, with each having a batch normalization layer, and the latter three residual blocks containing two convolutional layers, with each convolutional layer having its own batch normalization layer. Initially I opted to pursue a more complex Residual CNN architecture, however after experiencing over fitting I opted to minimize the complexity of the model architecture. 
+
+### Training and Validation
+
+The model is trained and validated using a stratified k-fold cross-validation approach. For each fold, the data set is split into training and validation subsets. One major concern within the data set is the large class imbalances. The White labels comprise of roughly 45% of the data, which will kill model performance unless properly dealt with. To address this issue I utilized stratified k-fold to properly sample class labels for the training and testing data. Additionally, I created weights for the Cross Entropy Loss based on the respective frequencies of the classes to better weight the classes.
+
+## Project Output
+
+The output of the project includes the training and validation loss and accuracy metrics for each fold and epoch. While the final epochs hovered around 86% validation accuracy, I believe that models such as ADABOOST, which are specifically designed for facial recognition, would heavily outperform this design. 
+
+This project serves as a learning experience for understanding the implementation of deep learning models from scratch and gaining hands-on experience with CNNs and Residual Networks.
+
+For the code, implementation and outputs, please visit <a href="https://github.com/AndrewJMart/FacialRecognitionRacialBias" target="_blank">my GitHub repository</a>.
+

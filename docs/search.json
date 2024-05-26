@@ -1,23 +1,79 @@
 [
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2"
-  },
-  {
-    "objectID": "projects.html#project-3",
-    "href": "projects.html#project-3",
-    "title": "Projects",
-    "section": "Project 3",
-    "text": "Project 3"
+    "section": "",
+    "text": "Race Classifier Residual Neural Network Implementation\n\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About Me",
+    "title": "Projects & Blogs",
     "section": "",
-    "text": "Thanks for checking out my web site!"
+    "text": "Race Classifier Residual Neural Network Implementation\n\n\n\n\n\n\n\nprojects\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2024\n\n\nAndrew Martinez\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Andrew Martinez is an undergraduate student At Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.\nIn his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games."
+  },
+  {
+    "objectID": "about.html#biography",
+    "href": "about.html#biography",
+    "title": "About",
+    "section": "",
+    "text": "Andrew Martinez is an undergraduate student At Cal Poly San Luis Obispo, pursuing a career in Data Science. He has work experience on Marketing Analytics, Data Science, and AI/ML teams.\nIn his spare time you will find Andrew watching Oakland Athletics or Sacramento Kings games."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\n\nData Science\nMachine Learning\nNatural Language Processing\nComputer Vision\nData Visualization\nStatistical Modeling\nBusiness Analytics"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\n\nBS\nStatistics, California Polytechnic State University San Luis Obispo, 2025\n\n\nBS\nBusiness Administration, California Polytechnic State University San Luis Obispo, 2025"
+  },
+  {
+    "objectID": "blogs.html",
+    "href": "blogs.html",
+    "title": "Blogs",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/projects/Race Classifier Residual Neural Network Implementation.html",
+    "href": "posts/projects/Race Classifier Residual Neural Network Implementation.html",
+    "title": "Race Classifier Residual Neural Network Implementation",
+    "section": "",
+    "text": "This project stemmed from my personal exploration into CNNs and ResNet architecture and my desire to apply the new found knowledge I learned. In this project I applied a ResNet CNN style architecture to develop a multiclass classification computer vision model that identifies a person’s race based on a photo."
+  },
+  {
+    "objectID": "posts/projects/Race Classifier Residual Neural Network Implementation.html#project-background",
+    "href": "posts/projects/Race Classifier Residual Neural Network Implementation.html#project-background",
+    "title": "Race Classifier Residual Neural Network Implementation",
+    "section": "",
+    "text": "This project stemmed from my personal exploration into CNNs and ResNet architecture and my desire to apply the new found knowledge I learned. In this project I applied a ResNet CNN style architecture to develop a multiclass classification computer vision model that identifies a person’s race based on a photo."
+  },
+  {
+    "objectID": "posts/projects/Race Classifier Residual Neural Network Implementation.html#implementation-details",
+    "href": "posts/projects/Race Classifier Residual Neural Network Implementation.html#implementation-details",
+    "title": "Race Classifier Residual Neural Network Implementation",
+    "section": "Implementation Details",
+    "text": "Implementation Details\n\nData Preprocessing\nThe initial part of the code deals with data preprocessing tasks, including resizing, cropping, and augmentation of images using PyTorch’s transforms module. The goal here is to prepare the dataset for training the Residual CNN model.\n\n\nModel Architecture\nThe Residual CNN model is constructed using PyTorch’s nn.Module class. The model’s architecture is as follows, one initial convolutional layer with batch normalization and a max pooling layer. Which is then followed up with four residual blocks, with the first residual block containing four convolutional layers, with each having a batch normalization layer, and the latter three residual blocks containing two convolutional layers, with each convolutional layer having its own batch normalization layer. Initially I opted to pursue a more complex Residual CNN architecture, however after experiencing over fitting I opted to minimize the complexity of the model artchitecture.\n\n\nTraining and Validation\nThe model is trained and validated using a stratified k-fold cross-validation approach. For each fold, the dataset is split into training and validation subsets. One major concern within the dataset is the large class imbalances. The White labels comprise of roughly 45% of the data, which will kill model performance unless properly dealt with. To address this issue I utilized stratified k-fold to properly sample class labels for the training and testing data. Additionally, I created weights for the Cross Entropy Loss based on the respective frequencies of the classes to better weight the classes."
+  },
+  {
+    "objectID": "posts/projects/Race Classifier Residual Neural Network Implementation.html#project-output",
+    "href": "posts/projects/Race Classifier Residual Neural Network Implementation.html#project-output",
+    "title": "Race Classifier Residual Neural Network Implementation",
+    "section": "Project Output",
+    "text": "Project Output\nThe output of the project includes the training and validation loss and accuracy metrics for each fold and epoch. While the final epochs hovered around 86% validation accuracy, I believe that models such as ADABOOST, which are specifically designed for facial recognition, would heavily outperform this design.\nThis project serves as a learning experience for understanding the implementation of deep learning models from scratch and gaining hands-on experience with CNNs and Residual Networks.\nFor the code, implementation and outputs, please visit my GitHub repository."
   }
 ]
