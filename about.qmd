@@ -7,7 +7,7 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/andrew-j-martinez/
+      href: https://www.linkedin.com/in/andrewjmart/
     - icon: github
       text: Github
       href: https://github.com/AndrewJMart
