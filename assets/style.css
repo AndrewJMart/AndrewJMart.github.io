@@ -18,13 +18,22 @@ header {
 }
 
 nav a {
-  margin-left: 1rem;
+  background-color: #0366d6;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-left: 8px;
   text-decoration: none;
-  color: #0366d6;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #024c9e;
+}
+
+nav a:active {
+  background-color: #013d80;
 }
 
 h1 a {
@@ -44,4 +53,44 @@ footer {
   padding-top: 1rem;
   text-align: center;
   color: #777;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:visited,
+footer a:hover,
+footer a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-preview {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.post-preview img {
+  width: 100px; /* adjust size */
+  height: auto;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.post-info {
+  flex: 1;
+}
+
+.post-info h2 {
+  margin: 0;
+}
+
+.post-info p {
+  margin-top: 5px;
+  color: #555;
 }
