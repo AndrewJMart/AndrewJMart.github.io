@@ -1,3 +1,13 @@
 title: Andrew Martinez
-description: My Personal Website
-theme: minima
+description: Personal Blog and Portfolio
+theme: null
+author: Andrew Martinez
+url: "https://andrewmartinez.dev"
+
+# Include the folder for static assets
+include:
+  - assets
+
+# Markdown and permalink settings
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title.html
