@@ -72,6 +72,27 @@ nav a:active {
   text-decoration: none;
 }
 
+/* ----------------- Home Post Section ----------------- */
+.post-section {
+  margin-top: 3rem;
+}
+
+.post-section-title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+@media (max-width: 600px) {
+  .post-section-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
 /* ----------------- Post Previews ----------------- */
 .post-preview {
   display: flex;
