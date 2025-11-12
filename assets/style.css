@@ -47,7 +47,6 @@ body {
     font-size: 0.9rem;
   }
 }
-
 /* ----------------- Header & Nav ----------------- */
 header {
   display: flex;
@@ -63,33 +62,32 @@ header {
 nav {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 0.5rem;
 }
 
 nav a {
   background-color: #0366d6;
   color: white;
-  padding: 0.6em 1.2em;
+  padding: 0.5em 1em;
   border-radius: 0.5em;
   text-decoration: none;
   font-size: 0.9rem;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, transform 0.2s ease;
   white-space: nowrap;
+  display: inline-block;
 }
 
+/* Better hover effect for navbar */
 nav a:hover {
   background-color: #024c9e;
+  transform: translateY(-1px);
 }
 
 nav a:active {
   background-color: #013d80;
 }
 
-h1 a {
-  color: inherit;
-  text-decoration: none;
-}
 
 /* ----------------- Post Previews ----------------- */
 .post-preview {
@@ -127,10 +125,21 @@ h1 a {
   max-width: 400px;
 }
 
-.post-info h2 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.5rem;           
+/* ----------------- Post Titles ----------------- */
+.post-info h2 a {
   color: #0366d6;
+  text-decoration: none;
+  background: none;
+  box-shadow: none;
+} 
+
+.post-info h2 a:hover,
+.post-info h2 a:active,
+.post-info h2 a:visited {
+  color: #0366d6;
+  text-decoration: none;
+  background: none;          
+  box-shadow: none;
 }
 
 .post-info p {

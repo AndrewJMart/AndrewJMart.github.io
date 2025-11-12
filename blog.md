@@ -3,8 +3,6 @@ layout: default
 title: Blog
 ---
 
-# 📰 Blog Posts
-
 {% for post in site.posts %}
   <div class="post-preview">
     {% if post.gif %}
