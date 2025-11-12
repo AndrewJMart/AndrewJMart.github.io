@@ -95,61 +95,74 @@ h1 a {
 .post-preview {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 4%;
-  border-bottom: 0.1rem solid #eee;
-  padding-bottom: 2%;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  gap: 2rem;
   flex-wrap: wrap;
-  text-align: center;
-  gap: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-preview:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .post-preview img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 10px;
-  display: block;
+  border-radius: 12px;
+  flex-shrink: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .post-preview {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 1rem;
   }
 
   .post-preview img {
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .post-info {
+    max-width: 90%;
+    text-align: center;
   }
 }
 
 .post-info {
   flex: 1;
-  max-width: 200px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: left;
+  max-width: 600px;
 }
 
 .post-info h2 {
-  margin: 0;
-  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.6rem;
+  color: #0366d6;
 }
 
 .post-info p {
-  margin-top: 5px;
+  margin-top: 0.5rem;
   color: #555;
-  font-size: 0.95rem;
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
-/* ----------------- Post Date ----------------- */
 .post-date {
-  color: #777;
-  font-size: 0.9em;
-  margin-top: -0.6em;
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
 }
 
 /* ----------------- Footer ----------------- */
