@@ -18,7 +18,6 @@ If you wish to reach out to me, please do so via email (amart89531@gmail.com) or
 <div class="post-section">
 
   <h2 class="post-section-title">Latest Post</h2>
-  <hr>
   {% assign latest_post = site.posts | first %}
   <div class="post-preview">
     {% if latest_post.gif %}
@@ -32,7 +31,6 @@ If you wish to reach out to me, please do so via email (amart89531@gmail.com) or
   </div>
 
   <h2 class="post-section-title">Featured Post</h2>
-  <hr>
   {% assign featured_post = site.posts | where: "featured", true | first %}
   {% if featured_post %}
   <div class="post-preview">
