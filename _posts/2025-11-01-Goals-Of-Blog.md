@@ -59,4 +59,4 @@ Seek help! Don't be cavalier or shy, use the resources around you as you mosey y
 
 ---
 
-As a special shoutout, the abstract name of the blog "The Shade" is a special nod to a special person in my life who inspires me to healthily better myself everyday.  
+As a special shoutout, the abstract name of the blog *The Shade* is a special nod to a special person in my life who inspires me to healthily better myself everyday.  
