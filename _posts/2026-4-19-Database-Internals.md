@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Database Internals"
-date: 2026-4-18
+date: 2026-4-19
 gif: /assets/gifs/Database.gif
 excerpt: Beginning My Database Journey.
 featured: false

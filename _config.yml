@@ -7,5 +7,10 @@ url: "https://andrewmartinez.dev"
 include:
   - assets
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title.html

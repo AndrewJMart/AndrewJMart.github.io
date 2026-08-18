@@ -3,18 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }} | {{ site.title }}</title>
+    {% seo %}
+    {% feed_meta %}
     <link rel="icon" type="image/png" href="/assets/images/flavicon/TheShade.png" />
     <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <body>
     <header>
       <img class="site-icon" src="/assets/images/flavicon/TheShade.png" alt="Site Icon">
-      <h1><a href="/">{{ site.title }}</a></h1>
+      <div class="brand"><a href="/">{{ site.title }}</a></div>
       <nav>
-        <a href="/">Home</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/about.html">About</a>
+        <div class="nav-row nav-row-primary">
+          <a href="/" class="nav-link">
+            <span>Home</span>
+          </a>
+          <a href="/blog.html" class="nav-link">
+            <span>Posts</span>
+          </a>
+          <a href="/about.html" class="nav-link">
+            <span>About</span>
+          </a>
+        </div>
+        <div class="nav-row nav-row-social">
+          <a href="https://github.com/AndrewJMart" target="_blank" rel="noopener noreferrer" class="nav-link">
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/andrewjmart" target="_blank" rel="noopener noreferrer" class="nav-link">
+            <span>LinkedIn</span>
+          </a>
+        </div>
       </nav>
       <p class="tagline">A Junior Dev's Adventure Through Learning</p>
     </header>
@@ -29,7 +46,7 @@
         <a href="https://www.linkedin.com/in/andrewjmart" target="_blank">LinkedIn</a> •
         <a href="https://x.com/AndrewJMartOnX" target="_blank">Twitter/X</a>
       </p>
-      <p>© 2025 Andrew Martinez</p>
+      <p>&copy; {{ 'now' | date: '%Y' }} Andrew Martinez</p>
     </footer>
   </body>
 </html>

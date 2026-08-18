@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Great Visible Migration"
-date: 2025-12-12
+date: 2025-12-11
 gif: /assets/gifs/VisibleMigration.gif
 excerpt: Developing A Backend To Support The Newsletter.
 featured: false
