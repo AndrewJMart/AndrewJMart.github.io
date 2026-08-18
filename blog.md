@@ -7,7 +7,7 @@ title: Posts
   {% for post in site.posts %}
     <a href="{{ post.url }}" class="post-preview-link">
       {% if post.gif %}
-        <img src="{{ post.gif }}" alt="{{ post.title }} preview" loading="lazy">
+        <img src="{{ post.gif }}" alt="{{ post.title }} preview">
       {% endif %}
       <div class="post-info">
         <h2>{{ post.title }}</h2>
